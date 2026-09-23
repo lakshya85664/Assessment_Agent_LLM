@@ -1,0 +1,49 @@
+{
+  "rubric_name": "Topic 17 Assessment Agent",
+  "version": "1.0",
+  "total_marks": 100,
+  "criteria": [
+    {
+      "id": "working_code",
+      "name": "Working code",
+      "marks": 25,
+      "description": "Scripts run end to end without manual patching and outputs can be reproduced."
+    },
+    {
+      "id": "core_technique",
+      "name": "Correctness of core technique",
+      "marks": 20,
+      "description": "The central mechanism of the assessed topic is implemented rather than simulated or stubbed."
+    },
+    {
+      "id": "testing_evidence",
+      "name": "Testing and evidence",
+      "marks": 15,
+      "description": "Automated tests and saved or pasted outputs prove each deliverable."
+    },
+    {
+      "id": "robustness",
+      "name": "Robustness",
+      "marks": 15,
+      "description": "Retries, timeouts, limits, invalid input handling and graceful failure are implemented."
+    },
+    {
+      "id": "measurement",
+      "name": "Measurement",
+      "marks": 10,
+      "description": "The implementation reports measurable counts, rates, latency or cost rather than opinions."
+    },
+    {
+      "id": "traceability",
+      "name": "Traceability",
+      "marks": 10,
+      "description": "Structured logs or traces are produced for model and tool activity."
+    },
+    {
+      "id": "code_quality",
+      "name": "Code quality",
+      "marks": 5,
+      "description": "Code uses clear naming, small functions, type hints where appropriate and contains no secrets."
+    }
+  ]
+}

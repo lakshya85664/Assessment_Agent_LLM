@@ -1,0 +1,148 @@
+{"timestamp": 1790149271.1609366, "event": "candidate_validation_passed", "candidate": "candidate"}
+{"timestamp": 1790149271.1612773, "event": "network_policy_declared", "network_allowed": false, "enforcement": "python_socket_block", "security_level": "defense_in_depth", "note": "This is not a kernel-level sandbox. Production deployments should use a container, VM, or OS-level network isolation."}
+{"timestamp": 1790149271.1724951, "event": "candidate_secret_scan_passed", "candidate": "candidate"}
+{"timestamp": 1790149271.173274, "event": "timeout_validated", "timeout_seconds": 10}
+{"timestamp": 1790149376.539618, "event": "candidate_validation_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-39\\test_successful_candidate_exec0\\candidate"}
+{"timestamp": 1790149376.5400095, "event": "network_policy_declared", "network_allowed": false, "enforcement": "python_socket_block", "security_level": "defense_in_depth", "note": "This is not a kernel-level sandbox. Production deployments should use a container, VM, or OS-level network isolation."}
+{"timestamp": 1790149376.5509515, "event": "candidate_secret_scan_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-39\\test_successful_candidate_exec0\\candidate"}
+{"timestamp": 1790149376.5519137, "event": "timeout_validated", "timeout_seconds": 10}
+{"timestamp": 1790149376.644736, "event": "candidate_validation_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-39\\test_failed_candidate_executio0\\candidate"}
+{"timestamp": 1790149376.6449564, "event": "network_policy_declared", "network_allowed": false, "enforcement": "python_socket_block", "security_level": "defense_in_depth", "note": "This is not a kernel-level sandbox. Production deployments should use a container, VM, or OS-level network isolation."}
+{"timestamp": 1790149376.6464343, "event": "candidate_secret_scan_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-39\\test_failed_candidate_executio0\\candidate"}
+{"timestamp": 1790149376.6473272, "event": "timeout_validated", "timeout_seconds": 10}
+{"timestamp": 1790149376.7473836, "event": "candidate_validation_failed", "reason": "path_not_found", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-39\\test_invalid_candidate_path0\\does_not_exist"}
+{"timestamp": 1790149376.7476056, "event": "candidate_quarantined", "status": "quarantined", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-39\\test_invalid_candidate_path0\\does_not_exist", "reason": "Candidate path does not exist: C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-39\\test_invalid_candidate_path0\\does_not_exist"}
+{"timestamp": 1790149633.5394878, "event": "candidate_validation_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-40\\test_successful_candidate_exec0\\candidate"}
+{"timestamp": 1790149633.5399094, "event": "network_policy_declared", "network_allowed": false, "enforcement": "python_socket_block", "security_level": "defense_in_depth", "note": "This is not a kernel-level sandbox. Production deployments should use a container, VM, or OS-level network isolation."}
+{"timestamp": 1790149633.5415325, "event": "candidate_secret_scan_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-40\\test_successful_candidate_exec0\\candidate"}
+{"timestamp": 1790149633.5422535, "event": "timeout_validated", "timeout_seconds": 10}
+{"timestamp": 1790149633.6266317, "event": "candidate_validation_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-40\\test_failed_candidate_executio0\\candidate"}
+{"timestamp": 1790149633.6268458, "event": "network_policy_declared", "network_allowed": false, "enforcement": "python_socket_block", "security_level": "defense_in_depth", "note": "This is not a kernel-level sandbox. Production deployments should use a container, VM, or OS-level network isolation."}
+{"timestamp": 1790149633.6284587, "event": "candidate_secret_scan_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-40\\test_failed_candidate_executio0\\candidate"}
+{"timestamp": 1790149633.6291237, "event": "timeout_validated", "timeout_seconds": 10}
+{"timestamp": 1790149633.7135282, "event": "candidate_validation_failed", "reason": "path_not_found", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-40\\test_invalid_candidate_path0\\does_not_exist"}
+{"timestamp": 1790149633.7137167, "event": "candidate_quarantined", "status": "quarantined", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-40\\test_invalid_candidate_path0\\does_not_exist", "reason": "Candidate path does not exist: C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-40\\test_invalid_candidate_path0\\does_not_exist"}
+{"timestamp": 1790149879.9498694, "event": "token_budget_consumed", "limit": 100, "used": 40, "remaining": 60, "consumed": 40}
+{"timestamp": 1790149879.9503639, "event": "token_budget_consumed", "limit": 100, "used": 70, "remaining": 30, "consumed": 30}
+{"timestamp": 1790149879.9516063, "event": "token_budget_consumed", "limit": 100, "used": 80, "remaining": 20, "consumed": 80}
+{"timestamp": 1790149879.951893, "event": "token_budget_exceeded", "limit": 100, "used": 80, "requested": 21}
+{"timestamp": 1790149879.9529915, "event": "step_started", "step": 1, "limit": 2, "name": "step_1"}
+{"timestamp": 1790149879.9531937, "event": "step_started", "step": 2, "limit": 2, "name": "step_2"}
+{"timestamp": 1790149879.953451, "event": "step_limit_exceeded", "limit": 2, "steps": 2, "attempted_step": "step_3"}
+{"timestamp": 1790149879.9544942, "event": "timeout_validated", "timeout_seconds": 5}
+{"timestamp": 1790149879.9555562, "event": "operation_retry", "operation": "test_operation", "attempt": 1, "next_attempt": 2, "delay_seconds": 0, "error": "temporary failure"}
+{"timestamp": 1790149879.9557703, "event": "operation_retry", "operation": "test_operation", "attempt": 2, "next_attempt": 3, "delay_seconds": 0, "error": "temporary failure"}
+{"timestamp": 1790149879.9559617, "event": "operation_succeeded", "operation": "test_operation", "attempt": 3}
+{"timestamp": 1790149879.9572172, "event": "operation_retry", "operation": "failing_operation", "attempt": 1, "next_attempt": 2, "delay_seconds": 0, "error": "permanent failure"}
+{"timestamp": 1790149879.957502, "event": "operation_retry", "operation": "failing_operation", "attempt": 2, "next_attempt": 3, "delay_seconds": 0, "error": "permanent failure"}
+{"timestamp": 1790149879.9577346, "event": "operation_failed", "operation": "failing_operation", "attempts": 3, "error": "permanent failure"}
+{"timestamp": 1790149879.959288, "event": "secret_detected", "source": "test_candidate", "pattern_count": 2}
+{"timestamp": 1790149879.9604595, "event": "secret_scan_passed", "source": "test_candidate"}
+{"timestamp": 1790149879.9696836, "event": "candidate_validation_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-41\\test_candidate_path_validation0\\candidate"}
+{"timestamp": 1790149879.972505, "event": "candidate_validation_failed", "reason": "path_not_found", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-41\\test_invalid_candidate_is_reje0\\missing"}
+{"timestamp": 1790149879.974839, "event": "candidate_quarantined", "status": "quarantined", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-41\\test_quarantine_records_reason0\\candidate", "reason": "Unsafe candidate"}
+{"timestamp": 1790149879.975967, "event": "network_policy_declared", "network_allowed": false, "enforcement": "python_socket_block", "security_level": "defense_in_depth", "note": "This is not a kernel-level sandbox. Production deployments should use a container, VM, or OS-level network isolation."}
+{"timestamp": 1790150462.0097096, "event": "token_budget_consumed", "limit": 2000, "used": 8, "remaining": 1992, "consumed": 8}
+{"timestamp": 1790150462.0102208, "event": "step_started", "step": 1, "limit": 10, "name": "vendor_a:working_code"}
+{"timestamp": 1790150462.010493, "event": "token_budget_consumed", "limit": 2000, "used": 16, "remaining": 1984, "consumed": 8}
+{"timestamp": 1790150462.0107322, "event": "step_started", "step": 2, "limit": 10, "name": "vendor_b:working_code"}
+{"timestamp": 1790150462.011201, "event": "operation_succeeded", "operation": "vendor_a:working_code", "attempt": 1}
+{"timestamp": 1790150462.011418, "event": "operation_succeeded", "operation": "vendor_b:working_code", "attempt": 1}
+{"timestamp": 1790150462.0118551, "event": "token_budget_consumed", "limit": 2000, "used": 24, "remaining": 1976, "consumed": 8}
+{"timestamp": 1790150462.0120697, "event": "step_started", "step": 3, "limit": 10, "name": "vendor_a:robustness"}
+{"timestamp": 1790150462.0122707, "event": "token_budget_consumed", "limit": 2000, "used": 32, "remaining": 1968, "consumed": 8}
+{"timestamp": 1790150462.0124755, "event": "step_started", "step": 4, "limit": 10, "name": "vendor_b:robustness"}
+{"timestamp": 1790150462.0128472, "event": "operation_succeeded", "operation": "vendor_a:robustness", "attempt": 1}
+{"timestamp": 1790150462.013038, "event": "operation_succeeded", "operation": "vendor_b:robustness", "attempt": 1}
+{"timestamp": 1790150557.3198006, "event": "token_budget_consumed", "limit": 100, "used": 40, "remaining": 60, "consumed": 40}
+{"timestamp": 1790150557.3200943, "event": "token_budget_consumed", "limit": 100, "used": 70, "remaining": 30, "consumed": 30}
+{"timestamp": 1790150557.321533, "event": "token_budget_consumed", "limit": 100, "used": 80, "remaining": 20, "consumed": 80}
+{"timestamp": 1790150557.321868, "event": "token_budget_exceeded", "limit": 100, "used": 80, "requested": 21}
+{"timestamp": 1790150557.323039, "event": "step_started", "step": 1, "limit": 2, "name": "step_1"}
+{"timestamp": 1790150557.3233135, "event": "step_started", "step": 2, "limit": 2, "name": "step_2"}
+{"timestamp": 1790150557.3236578, "event": "step_limit_exceeded", "limit": 2, "steps": 2, "attempted_step": "step_3"}
+{"timestamp": 1790150557.3248608, "event": "timeout_validated", "timeout_seconds": 5}
+{"timestamp": 1790150557.3261259, "event": "operation_retry", "operation": "test_operation", "attempt": 1, "next_attempt": 2, "delay_seconds": 0, "error": "temporary failure"}
+{"timestamp": 1790150557.3263812, "event": "operation_retry", "operation": "test_operation", "attempt": 2, "next_attempt": 3, "delay_seconds": 0, "error": "temporary failure"}
+{"timestamp": 1790150557.3266253, "event": "operation_succeeded", "operation": "test_operation", "attempt": 3}
+{"timestamp": 1790150557.3277516, "event": "operation_retry", "operation": "failing_operation", "attempt": 1, "next_attempt": 2, "delay_seconds": 0, "error": "permanent failure"}
+{"timestamp": 1790150557.3279731, "event": "operation_retry", "operation": "failing_operation", "attempt": 2, "next_attempt": 3, "delay_seconds": 0, "error": "permanent failure"}
+{"timestamp": 1790150557.3281806, "event": "operation_failed", "operation": "failing_operation", "attempts": 3, "error": "permanent failure"}
+{"timestamp": 1790150557.3293154, "event": "secret_detected", "source": "test_candidate", "pattern_count": 2}
+{"timestamp": 1790150557.3305569, "event": "secret_scan_passed", "source": "test_candidate"}
+{"timestamp": 1790150557.339582, "event": "candidate_validation_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-42\\test_candidate_path_validation0\\candidate"}
+{"timestamp": 1790150557.3426082, "event": "candidate_validation_failed", "reason": "path_not_found", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-42\\test_invalid_candidate_is_reje0\\missing"}
+{"timestamp": 1790150557.3455963, "event": "candidate_quarantined", "status": "quarantined", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-42\\test_quarantine_records_reason0\\candidate", "reason": "Unsafe candidate"}
+{"timestamp": 1790150557.3468406, "event": "network_policy_declared", "network_allowed": false, "enforcement": "python_socket_block", "security_level": "defense_in_depth", "note": "This is not a kernel-level sandbox. Production deployments should use a container, VM, or OS-level network isolation."}
+{"timestamp": 1790150557.3484185, "event": "token_budget_consumed", "limit": 2000, "used": 6, "remaining": 1994, "consumed": 6}
+{"timestamp": 1790150557.3486683, "event": "step_started", "step": 1, "limit": 2, "name": "vendor_a:criterion_1"}
+{"timestamp": 1790150557.3488889, "event": "token_budget_consumed", "limit": 2000, "used": 12, "remaining": 1988, "consumed": 6}
+{"timestamp": 1790150557.349145, "event": "step_started", "step": 2, "limit": 2, "name": "vendor_b:criterion_1"}
+{"timestamp": 1790150557.3495812, "event": "operation_succeeded", "operation": "vendor_a:criterion_1", "attempt": 1}
+{"timestamp": 1790150557.3497925, "event": "operation_succeeded", "operation": "vendor_b:criterion_1", "attempt": 1}
+{"timestamp": 1790150557.3502939, "event": "token_budget_consumed", "limit": 2000, "used": 18, "remaining": 1982, "consumed": 6}
+{"timestamp": 1790150557.350487, "event": "step_limit_exceeded", "limit": 2, "steps": 2, "attempted_step": "vendor_a:criterion_2"}
+{"timestamp": 1790150557.3522973, "event": "token_budget_exceeded", "limit": 10, "used": 0, "requested": 102}
+{"timestamp": 1790150557.354416, "event": "token_budget_consumed", "limit": 1000, "used": 6, "remaining": 994, "consumed": 6}
+{"timestamp": 1790150557.3546412, "event": "step_started", "step": 1, "limit": 10, "name": "vendor_a:criterion_1"}
+{"timestamp": 1790150557.3548439, "event": "token_budget_consumed", "limit": 1000, "used": 12, "remaining": 988, "consumed": 6}
+{"timestamp": 1790150557.355051, "event": "step_started", "step": 2, "limit": 10, "name": "vendor_b:criterion_1"}
+{"timestamp": 1790150557.3554392, "event": "operation_succeeded", "operation": "vendor_a:criterion_1", "attempt": 1}
+{"timestamp": 1790150557.3556383, "event": "operation_succeeded", "operation": "vendor_b:criterion_1", "attempt": 1}
+{"timestamp": 1790150616.4946887, "event": "candidate_validation_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-43\\test_successful_candidate_exec0\\candidate"}
+{"timestamp": 1790150616.4949896, "event": "network_policy_declared", "network_allowed": false, "enforcement": "python_socket_block", "security_level": "defense_in_depth", "note": "This is not a kernel-level sandbox. Production deployments should use a container, VM, or OS-level network isolation."}
+{"timestamp": 1790150616.4965055, "event": "candidate_secret_scan_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-43\\test_successful_candidate_exec0\\candidate"}
+{"timestamp": 1790150616.4971912, "event": "timeout_validated", "timeout_seconds": 10}
+{"timestamp": 1790150616.5661285, "event": "candidate_validation_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-43\\test_failed_candidate_executio0\\candidate"}
+{"timestamp": 1790150616.5663364, "event": "network_policy_declared", "network_allowed": false, "enforcement": "python_socket_block", "security_level": "defense_in_depth", "note": "This is not a kernel-level sandbox. Production deployments should use a container, VM, or OS-level network isolation."}
+{"timestamp": 1790150616.568162, "event": "candidate_secret_scan_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-43\\test_failed_candidate_executio0\\candidate"}
+{"timestamp": 1790150616.5688653, "event": "timeout_validated", "timeout_seconds": 10}
+{"timestamp": 1790150616.6519487, "event": "candidate_validation_failed", "reason": "path_not_found", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-43\\test_invalid_candidate_path0\\does_not_exist"}
+{"timestamp": 1790150616.6521082, "event": "candidate_quarantined", "status": "quarantined", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-43\\test_invalid_candidate_path0\\does_not_exist", "reason": "Candidate path does not exist: C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-43\\test_invalid_candidate_path0\\does_not_exist"}
+{"timestamp": 1790150616.6691067, "event": "token_budget_consumed", "limit": 2000, "used": 8, "remaining": 1992, "consumed": 8}
+{"timestamp": 1790150616.6693292, "event": "step_started", "step": 1, "limit": 10, "name": "vendor_a:working_code"}
+{"timestamp": 1790150616.6695287, "event": "token_budget_consumed", "limit": 2000, "used": 16, "remaining": 1984, "consumed": 8}
+{"timestamp": 1790150616.6697438, "event": "step_started", "step": 2, "limit": 10, "name": "vendor_b:working_code"}
+{"timestamp": 1790150616.670146, "event": "operation_succeeded", "operation": "vendor_a:working_code", "attempt": 1}
+{"timestamp": 1790150616.670344, "event": "operation_succeeded", "operation": "vendor_b:working_code", "attempt": 1}
+{"timestamp": 1790150616.6707606, "event": "token_budget_consumed", "limit": 2000, "used": 24, "remaining": 1976, "consumed": 8}
+{"timestamp": 1790150616.6710262, "event": "step_started", "step": 3, "limit": 10, "name": "vendor_a:robustness"}
+{"timestamp": 1790150616.6712275, "event": "token_budget_consumed", "limit": 2000, "used": 32, "remaining": 1968, "consumed": 8}
+{"timestamp": 1790150616.6714234, "event": "step_started", "step": 4, "limit": 10, "name": "vendor_b:robustness"}
+{"timestamp": 1790150616.671838, "event": "operation_succeeded", "operation": "vendor_a:robustness", "attempt": 1}
+{"timestamp": 1790150616.6720345, "event": "operation_succeeded", "operation": "vendor_b:robustness", "attempt": 1}
+{"timestamp": 1790150616.7010393, "event": "token_budget_consumed", "limit": 100, "used": 40, "remaining": 60, "consumed": 40}
+{"timestamp": 1790150616.7012925, "event": "token_budget_consumed", "limit": 100, "used": 70, "remaining": 30, "consumed": 30}
+{"timestamp": 1790150616.702557, "event": "token_budget_consumed", "limit": 100, "used": 80, "remaining": 20, "consumed": 80}
+{"timestamp": 1790150616.7029321, "event": "token_budget_exceeded", "limit": 100, "used": 80, "requested": 21}
+{"timestamp": 1790150616.704287, "event": "step_started", "step": 1, "limit": 2, "name": "step_1"}
+{"timestamp": 1790150616.7045813, "event": "step_started", "step": 2, "limit": 2, "name": "step_2"}
+{"timestamp": 1790150616.7050204, "event": "step_limit_exceeded", "limit": 2, "steps": 2, "attempted_step": "step_3"}
+{"timestamp": 1790150616.706405, "event": "timeout_validated", "timeout_seconds": 5}
+{"timestamp": 1790150616.7077658, "event": "operation_retry", "operation": "test_operation", "attempt": 1, "next_attempt": 2, "delay_seconds": 0, "error": "temporary failure"}
+{"timestamp": 1790150616.708084, "event": "operation_retry", "operation": "test_operation", "attempt": 2, "next_attempt": 3, "delay_seconds": 0, "error": "temporary failure"}
+{"timestamp": 1790150616.7083762, "event": "operation_succeeded", "operation": "test_operation", "attempt": 3}
+{"timestamp": 1790150616.7099106, "event": "operation_retry", "operation": "failing_operation", "attempt": 1, "next_attempt": 2, "delay_seconds": 0, "error": "permanent failure"}
+{"timestamp": 1790150616.7102864, "event": "operation_retry", "operation": "failing_operation", "attempt": 2, "next_attempt": 3, "delay_seconds": 0, "error": "permanent failure"}
+{"timestamp": 1790150616.7105527, "event": "operation_failed", "operation": "failing_operation", "attempts": 3, "error": "permanent failure"}
+{"timestamp": 1790150616.7185974, "event": "secret_detected", "source": "test_candidate", "pattern_count": 2}
+{"timestamp": 1790150616.7206736, "event": "secret_scan_passed", "source": "test_candidate"}
+{"timestamp": 1790150616.724598, "event": "candidate_validation_passed", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-43\\test_candidate_path_validation0\\candidate"}
+{"timestamp": 1790150616.7297115, "event": "candidate_validation_failed", "reason": "path_not_found", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-43\\test_invalid_candidate_is_reje0\\missing"}
+{"timestamp": 1790150616.7350967, "event": "candidate_quarantined", "status": "quarantined", "candidate": "C:\\Users\\Lakshya\\AppData\\Local\\Temp\\pytest-of-Lakshya\\pytest-43\\test_quarantine_records_reason0\\candidate", "reason": "Unsafe candidate"}
+{"timestamp": 1790150616.7384331, "event": "network_policy_declared", "network_allowed": false, "enforcement": "python_socket_block", "security_level": "defense_in_depth", "note": "This is not a kernel-level sandbox. Production deployments should use a container, VM, or OS-level network isolation."}
+{"timestamp": 1790150616.7411704, "event": "token_budget_consumed", "limit": 2000, "used": 6, "remaining": 1994, "consumed": 6}
+{"timestamp": 1790150616.7414622, "event": "step_started", "step": 1, "limit": 2, "name": "vendor_a:criterion_1"}
+{"timestamp": 1790150616.741764, "event": "token_budget_consumed", "limit": 2000, "used": 12, "remaining": 1988, "consumed": 6}
+{"timestamp": 1790150616.742065, "event": "step_started", "step": 2, "limit": 2, "name": "vendor_b:criterion_1"}
+{"timestamp": 1790150616.742597, "event": "operation_succeeded", "operation": "vendor_a:criterion_1", "attempt": 1}
+{"timestamp": 1790150616.7428071, "event": "operation_succeeded", "operation": "vendor_b:criterion_1", "attempt": 1}
+{"timestamp": 1790150616.7432275, "event": "token_budget_consumed", "limit": 2000, "used": 18, "remaining": 1982, "consumed": 6}
+{"timestamp": 1790150616.7434316, "event": "step_limit_exceeded", "limit": 2, "steps": 2, "attempted_step": "vendor_a:criterion_2"}
+{"timestamp": 1790150616.746136, "event": "token_budget_exceeded", "limit": 10, "used": 0, "requested": 102}
+{"timestamp": 1790150616.748103, "event": "token_budget_consumed", "limit": 1000, "used": 6, "remaining": 994, "consumed": 6}
+{"timestamp": 1790150616.7483766, "event": "step_started", "step": 1, "limit": 10, "name": "vendor_a:criterion_1"}
+{"timestamp": 1790150616.74865, "event": "token_budget_consumed", "limit": 1000, "used": 12, "remaining": 988, "consumed": 6}
+{"timestamp": 1790150616.7489018, "event": "step_started", "step": 2, "limit": 10, "name": "vendor_b:criterion_1"}
+{"timestamp": 1790150616.749414, "event": "operation_succeeded", "operation": "vendor_a:criterion_1", "attempt": 1}
+{"timestamp": 1790150616.749674, "event": "operation_succeeded", "operation": "vendor_b:criterion_1", "attempt": 1}

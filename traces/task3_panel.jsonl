@@ -1,0 +1,47 @@
+{"event": "panel_started", "timestamp": 1790150127.0703478, "provider_a": "vendor_a", "provider_b": "vendor_b", "criterion_count": 2, "disagreement_threshold": 0.2}
+{"event": "criterion_panel_started", "timestamp": 1790150127.0706036, "criterion_id": "working_code", "provider_a": "vendor_a", "provider_b": "vendor_b"}
+{"event": "provider_request_started", "timestamp": 1790150127.070815, "criterion_id": "working_code", "provider": "vendor_a", "attempt": 1}
+{"event": "provider_response_validated", "timestamp": 1790150127.0714803, "criterion_id": "working_code", "provider": "vendor_a", "rating": 0.9}
+{"event": "provider_request_started", "timestamp": 1790150127.071721, "criterion_id": "working_code", "provider": "vendor_b", "attempt": 1}
+{"event": "provider_response_validated", "timestamp": 1790150127.0719705, "criterion_id": "working_code", "provider": "vendor_b", "rating": 0.8}
+{"event": "criterion_panel_completed", "timestamp": 1790150127.0721774, "criterion_id": "working_code", "final_rating": 0.85, "reconciled": false}
+{"event": "criterion_panel_started", "timestamp": 1790150127.072401, "criterion_id": "robustness", "provider_a": "vendor_a", "provider_b": "vendor_b"}
+{"event": "provider_request_started", "timestamp": 1790150127.0726428, "criterion_id": "robustness", "provider": "vendor_a", "attempt": 1}
+{"event": "provider_response_validated", "timestamp": 1790150127.0728247, "criterion_id": "robustness", "provider": "vendor_a", "rating": 0.95}
+{"event": "provider_request_started", "timestamp": 1790150127.0730083, "criterion_id": "robustness", "provider": "vendor_b", "attempt": 1}
+{"event": "provider_response_validated", "timestamp": 1790150127.0731874, "criterion_id": "robustness", "provider": "vendor_b", "rating": 0.5}
+{"event": "reconciliation_required", "timestamp": 1790150127.0733685, "criterion_id": "robustness", "provider_a": "vendor_a", "provider_b": "vendor_b", "rating_a": 0.95, "rating_b": 0.5, "difference": 0.45, "threshold": 0.2}
+{"event": "criterion_panel_completed", "timestamp": 1790150127.0735483, "criterion_id": "robustness", "final_rating": 0.725, "reconciled": true}
+{"event": "panel_completed", "timestamp": 1790150127.073722, "criterion_count": 2}
+{"timestamp": 1790150462.0058897, "event": "reconciliation_required", "criterion_id": "robustness", "provider_a": "vendor_a", "provider_b": "vendor_b", "rating_a": 0.95, "rating_b": 0.5, "difference": 0.44999999999999996, "threshold": 0.2}
+{"timestamp": 1790150462.009407, "event": "panel_started", "provider_a": "vendor_a", "provider_b": "vendor_b", "disagreement_threshold": 0.2, "token_budget": 2000, "step_limit": 10}
+{"timestamp": 1790150462.0109584, "event": "criterion_evaluation_started", "criterion_id": "working_code", "provider_a": "vendor_a", "provider_b": "vendor_b"}
+{"timestamp": 1790150462.0116336, "event": "criterion_evaluation_completed", "criterion_id": "working_code", "final_rating": 0.85, "reconciled": false}
+{"timestamp": 1790150462.01266, "event": "criterion_evaluation_started", "criterion_id": "robustness", "provider_a": "vendor_a", "provider_b": "vendor_b"}
+{"timestamp": 1790150462.013259, "event": "reconciliation_required", "criterion_id": "robustness", "provider_a": "vendor_a", "provider_b": "vendor_b", "rating_a": 0.95, "rating_b": 0.5, "difference": 0.44999999999999996, "threshold": 0.2}
+{"timestamp": 1790150462.0134778, "event": "criterion_evaluation_completed", "criterion_id": "robustness", "final_rating": 0.725, "reconciled": true}
+{"timestamp": 1790150462.0136676, "event": "panel_completed", "criteria_count": 2, "token_budget_used": 32, "steps_used": 4}
+{"timestamp": 1790150557.348106, "event": "panel_started", "provider_a": "vendor_a", "provider_b": "vendor_b", "disagreement_threshold": 0.2, "token_budget": 2000, "step_limit": 2}
+{"timestamp": 1790150557.3493438, "event": "criterion_evaluation_started", "criterion_id": "criterion_1", "provider_a": "vendor_a", "provider_b": "vendor_b"}
+{"timestamp": 1790150557.3500347, "event": "criterion_evaluation_completed", "criterion_id": "criterion_1", "final_rating": 0.8, "reconciled": false}
+{"timestamp": 1790150557.3520424, "event": "panel_started", "provider_a": "vendor_a", "provider_b": "vendor_b", "disagreement_threshold": 0.2, "token_budget": 10, "step_limit": 10}
+{"timestamp": 1790150557.3540409, "event": "panel_started", "provider_a": "vendor_a", "provider_b": "vendor_b", "disagreement_threshold": 0.2, "token_budget": 1000, "step_limit": 10}
+{"timestamp": 1790150557.3552434, "event": "criterion_evaluation_started", "criterion_id": "criterion_1", "provider_a": "vendor_a", "provider_b": "vendor_b"}
+{"timestamp": 1790150557.355839, "event": "criterion_evaluation_completed", "criterion_id": "criterion_1", "final_rating": 0.85, "reconciled": false}
+{"timestamp": 1790150557.3560362, "event": "panel_completed", "criteria_count": 1, "token_budget_used": 12, "steps_used": 2}
+{"timestamp": 1790150616.665994, "event": "reconciliation_required", "criterion_id": "robustness", "provider_a": "vendor_a", "provider_b": "vendor_b", "rating_a": 0.95, "rating_b": 0.5, "difference": 0.44999999999999996, "threshold": 0.2}
+{"timestamp": 1790150616.6688383, "event": "panel_started", "provider_a": "vendor_a", "provider_b": "vendor_b", "disagreement_threshold": 0.2, "token_budget": 2000, "step_limit": 10}
+{"timestamp": 1790150616.6699398, "event": "criterion_evaluation_started", "criterion_id": "working_code", "provider_a": "vendor_a", "provider_b": "vendor_b"}
+{"timestamp": 1790150616.6705513, "event": "criterion_evaluation_completed", "criterion_id": "working_code", "final_rating": 0.85, "reconciled": false}
+{"timestamp": 1790150616.671633, "event": "criterion_evaluation_started", "criterion_id": "robustness", "provider_a": "vendor_a", "provider_b": "vendor_b"}
+{"timestamp": 1790150616.6722357, "event": "reconciliation_required", "criterion_id": "robustness", "provider_a": "vendor_a", "provider_b": "vendor_b", "rating_a": 0.95, "rating_b": 0.5, "difference": 0.44999999999999996, "threshold": 0.2}
+{"timestamp": 1790150616.672438, "event": "criterion_evaluation_completed", "criterion_id": "robustness", "final_rating": 0.725, "reconciled": true}
+{"timestamp": 1790150616.6726365, "event": "panel_completed", "criteria_count": 2, "token_budget_used": 32, "steps_used": 4}
+{"timestamp": 1790150616.7407017, "event": "panel_started", "provider_a": "vendor_a", "provider_b": "vendor_b", "disagreement_threshold": 0.2, "token_budget": 2000, "step_limit": 2}
+{"timestamp": 1790150616.7423482, "event": "criterion_evaluation_started", "criterion_id": "criterion_1", "provider_a": "vendor_a", "provider_b": "vendor_b"}
+{"timestamp": 1790150616.7430227, "event": "criterion_evaluation_completed", "criterion_id": "criterion_1", "final_rating": 0.8, "reconciled": false}
+{"timestamp": 1790150616.745763, "event": "panel_started", "provider_a": "vendor_a", "provider_b": "vendor_b", "disagreement_threshold": 0.2, "token_budget": 10, "step_limit": 10}
+{"timestamp": 1790150616.7477703, "event": "panel_started", "provider_a": "vendor_a", "provider_b": "vendor_b", "disagreement_threshold": 0.2, "token_budget": 1000, "step_limit": 10}
+{"timestamp": 1790150616.7491553, "event": "criterion_evaluation_started", "criterion_id": "criterion_1", "provider_a": "vendor_a", "provider_b": "vendor_b"}
+{"timestamp": 1790150616.7499428, "event": "criterion_evaluation_completed", "criterion_id": "criterion_1", "final_rating": 0.85, "reconciled": false}
+{"timestamp": 1790150616.7502074, "event": "panel_completed", "criteria_count": 1, "token_budget_used": 12, "steps_used": 2}

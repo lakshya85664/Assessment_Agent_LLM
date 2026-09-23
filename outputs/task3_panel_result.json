@@ -1,0 +1,177 @@
+{
+  "panel": {
+    "provider_a": "mock_vendor_a",
+    "provider_b": "mock_vendor_b",
+    "disagreement_threshold": 0.2
+  },
+  "criteria": [
+    {
+      "criterion_id": "working_code",
+      "criterion_name": "Working code",
+      "providers": [
+        {
+          "provider": "mock_vendor_a",
+          "rating": 1.0,
+          "evidence": "Candidate entry point executed successfully with return code 0."
+        },
+        {
+          "provider": "mock_vendor_b",
+          "rating": 0.9,
+          "evidence": "Candidate entry point executed successfully with return code 0."
+        }
+      ],
+      "reconciliation": {
+        "reconciled": false,
+        "final_rating": 0.95,
+        "difference": 0.1,
+        "method": "average_within_threshold",
+        "reason": "Model disagreement is within threshold."
+      },
+      "final_rating": 0.95
+    },
+    {
+      "criterion_id": "core_technique",
+      "criterion_name": "Correctness of core technique",
+      "providers": [
+        {
+          "provider": "mock_vendor_a",
+          "rating": 0.9,
+          "evidence": "The required assessment mechanism is implemented in the submitted source."
+        },
+        {
+          "provider": "mock_vendor_b",
+          "rating": 0.8,
+          "evidence": "The required assessment mechanism is implemented in the submitted source."
+        }
+      ],
+      "reconciliation": {
+        "reconciled": false,
+        "final_rating": 0.85,
+        "difference": 0.1,
+        "method": "average_within_threshold",
+        "reason": "Model disagreement is within threshold."
+      },
+      "final_rating": 0.85
+    },
+    {
+      "criterion_id": "testing_evidence",
+      "criterion_name": "Testing and evidence",
+      "providers": [
+        {
+          "provider": "mock_vendor_a",
+          "rating": 0.8,
+          "evidence": "Automated tests cover successful and failure execution paths."
+        },
+        {
+          "provider": "mock_vendor_b",
+          "rating": 0.8,
+          "evidence": "Automated tests cover successful and failure execution paths."
+        }
+      ],
+      "reconciliation": {
+        "reconciled": false,
+        "final_rating": 0.8,
+        "difference": 0.0,
+        "method": "average_within_threshold",
+        "reason": "Model disagreement is within threshold."
+      },
+      "final_rating": 0.8
+    },
+    {
+      "criterion_id": "robustness",
+      "criterion_name": "Robustness",
+      "providers": [
+        {
+          "provider": "mock_vendor_a",
+          "rating": 0.8,
+          "evidence": "Timeout and invalid candidate handling are implemented."
+        },
+        {
+          "provider": "mock_vendor_b",
+          "rating": 0.7,
+          "evidence": "Timeout and invalid candidate handling are implemented."
+        }
+      ],
+      "reconciliation": {
+        "reconciled": false,
+        "final_rating": 0.75,
+        "difference": 0.1,
+        "method": "average_within_threshold",
+        "reason": "Model disagreement is within threshold."
+      },
+      "final_rating": 0.75
+    },
+    {
+      "criterion_id": "measurement",
+      "criterion_name": "Measurement",
+      "providers": [
+        {
+          "provider": "mock_vendor_a",
+          "rating": 0.7,
+          "evidence": "Execution latency and return codes are captured."
+        },
+        {
+          "provider": "mock_vendor_b",
+          "rating": 0.8,
+          "evidence": "Execution latency and return codes are captured."
+        }
+      ],
+      "reconciliation": {
+        "reconciled": false,
+        "final_rating": 0.75,
+        "difference": 0.1,
+        "method": "average_within_threshold",
+        "reason": "Model disagreement is within threshold."
+      },
+      "final_rating": 0.75
+    },
+    {
+      "criterion_id": "traceability",
+      "criterion_name": "Traceability",
+      "providers": [
+        {
+          "provider": "mock_vendor_a",
+          "rating": 1.0,
+          "evidence": "Structured JSONL ingestion traces are generated."
+        },
+        {
+          "provider": "mock_vendor_b",
+          "rating": 0.9,
+          "evidence": "Structured JSONL ingestion traces are generated."
+        }
+      ],
+      "reconciliation": {
+        "reconciled": false,
+        "final_rating": 0.95,
+        "difference": 0.1,
+        "method": "average_within_threshold",
+        "reason": "Model disagreement is within threshold."
+      },
+      "final_rating": 0.95
+    },
+    {
+      "criterion_id": "code_quality",
+      "criterion_name": "Code quality",
+      "providers": [
+        {
+          "provider": "mock_vendor_a",
+          "rating": 0.9,
+          "evidence": "Implementation uses small functions, clear names and type hints."
+        },
+        {
+          "provider": "mock_vendor_b",
+          "rating": 0.8,
+          "evidence": "Implementation uses small functions, clear names and type hints."
+        }
+      ],
+      "reconciliation": {
+        "reconciled": false,
+        "final_rating": 0.85,
+        "difference": 0.1,
+        "method": "average_within_threshold",
+        "reason": "Model disagreement is within threshold."
+      },
+      "final_rating": 0.85
+    }
+  ]
+}

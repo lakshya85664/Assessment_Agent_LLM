@@ -1,0 +1,95 @@
+{"event": "report_generation_started", "timestamp": 1790148544.388137, "rubric": "rubric.json", "evidence": "outputs/task2_evidence.json", "panel": "outputs/task3_panel_result.json"}
+{"event": "criterion_report_generated", "timestamp": 1790148544.4249573, "criterion_id": "working_code", "final_rating": 0.95, "awarded_marks": 23.75}
+{"event": "criterion_report_generated", "timestamp": 1790148544.4252374, "criterion_id": "core_technique", "final_rating": 0.85, "awarded_marks": 17.0}
+{"event": "criterion_report_generated", "timestamp": 1790148544.4254396, "criterion_id": "testing_evidence", "final_rating": 0.8, "awarded_marks": 12.0}
+{"event": "criterion_report_generated", "timestamp": 1790148544.425647, "criterion_id": "robustness", "final_rating": 0.75, "awarded_marks": 11.25}
+{"event": "criterion_report_generated", "timestamp": 1790148544.426005, "criterion_id": "measurement", "final_rating": 0.75, "awarded_marks": 7.5}
+{"event": "criterion_report_generated", "timestamp": 1790148544.4263, "criterion_id": "traceability", "final_rating": 0.95, "awarded_marks": 9.5}
+{"event": "criterion_report_generated", "timestamp": 1790148544.4265418, "criterion_id": "code_quality", "final_rating": 0.85, "awarded_marks": 4.25}
+{"event": "final_report_generated", "timestamp": 1790148544.4268692, "total_marks": 100, "awarded_marks": 85.25, "percentage": 85.25, "criterion_count": 7}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6774006, "criterion_id": "working_code", "final_rating": 0.95, "awarded_marks": 23.75}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6785927, "criterion_id": "core_technique", "final_rating": 0.85, "awarded_marks": 17.0}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6788666, "criterion_id": "testing_evidence", "final_rating": 0.8, "awarded_marks": 12.0}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6793058, "criterion_id": "robustness", "final_rating": 0.75, "awarded_marks": 11.25}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6795175, "criterion_id": "measurement", "final_rating": 0.75, "awarded_marks": 7.5}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6797347, "criterion_id": "traceability", "final_rating": 0.95, "awarded_marks": 9.5}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6799424, "criterion_id": "code_quality", "final_rating": 0.85, "awarded_marks": 4.25}
+{"event": "final_report_generated", "timestamp": 1790149060.6802344, "total_marks": 100, "awarded_marks": 85.25, "percentage": 85.25, "criterion_count": 7}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6825275, "criterion_id": "working_code", "final_rating": 0.95, "awarded_marks": 23.75}
+{"event": "criterion_report_generated", "timestamp": 1790149060.682765, "criterion_id": "core_technique", "final_rating": 0.85, "awarded_marks": 17.0}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6829715, "criterion_id": "testing_evidence", "final_rating": 0.8, "awarded_marks": 12.0}
+{"event": "criterion_report_generated", "timestamp": 1790149060.683199, "criterion_id": "robustness", "final_rating": 0.75, "awarded_marks": 11.25}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6834147, "criterion_id": "measurement", "final_rating": 0.75, "awarded_marks": 7.5}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6836421, "criterion_id": "traceability", "final_rating": 0.95, "awarded_marks": 9.5}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6838684, "criterion_id": "code_quality", "final_rating": 0.85, "awarded_marks": 4.25}
+{"event": "final_report_generated", "timestamp": 1790149060.6841538, "total_marks": 100, "awarded_marks": 85.25, "percentage": 85.25, "criterion_count": 7}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6870806, "criterion_id": "working_code", "final_rating": 0.95, "awarded_marks": 23.75}
+{"event": "criterion_report_generated", "timestamp": 1790149060.687337, "criterion_id": "core_technique", "final_rating": 0.85, "awarded_marks": 17.0}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6875978, "criterion_id": "testing_evidence", "final_rating": 0.8, "awarded_marks": 12.0}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6878018, "criterion_id": "robustness", "final_rating": 0.75, "awarded_marks": 11.25}
+{"event": "criterion_report_generated", "timestamp": 1790149060.687999, "criterion_id": "measurement", "final_rating": 0.75, "awarded_marks": 7.5}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6881945, "criterion_id": "traceability", "final_rating": 0.95, "awarded_marks": 9.5}
+{"event": "criterion_report_generated", "timestamp": 1790149060.688401, "criterion_id": "code_quality", "final_rating": 0.85, "awarded_marks": 4.25}
+{"event": "final_report_generated", "timestamp": 1790149060.688666, "total_marks": 100, "awarded_marks": 85.25, "percentage": 85.25, "criterion_count": 7}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6906195, "criterion_id": "working_code", "final_rating": 0.95, "awarded_marks": 23.75}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6908407, "criterion_id": "core_technique", "final_rating": 0.85, "awarded_marks": 17.0}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6910481, "criterion_id": "testing_evidence", "final_rating": 0.8, "awarded_marks": 12.0}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6912453, "criterion_id": "robustness", "final_rating": 0.75, "awarded_marks": 11.25}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6914437, "criterion_id": "measurement", "final_rating": 0.75, "awarded_marks": 7.5}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6916807, "criterion_id": "traceability", "final_rating": 0.95, "awarded_marks": 9.5}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6919274, "criterion_id": "code_quality", "final_rating": 0.85, "awarded_marks": 4.25}
+{"event": "final_report_generated", "timestamp": 1790149060.6922882, "total_marks": 100, "awarded_marks": 85.25, "percentage": 85.25, "criterion_count": 7}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6948667, "criterion_id": "working_code", "final_rating": 0.95, "awarded_marks": 23.75}
+{"event": "criterion_report_generated", "timestamp": 1790149060.695121, "criterion_id": "core_technique", "final_rating": 0.85, "awarded_marks": 17.0}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6953406, "criterion_id": "testing_evidence", "final_rating": 0.8, "awarded_marks": 12.0}
+{"event": "criterion_report_generated", "timestamp": 1790149060.695542, "criterion_id": "robustness", "final_rating": 0.75, "awarded_marks": 11.25}
+{"event": "criterion_report_generated", "timestamp": 1790149060.695765, "criterion_id": "measurement", "final_rating": 0.75, "awarded_marks": 7.5}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6959634, "criterion_id": "traceability", "final_rating": 0.95, "awarded_marks": 9.5}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6961796, "criterion_id": "code_quality", "final_rating": 0.85, "awarded_marks": 4.25}
+{"event": "final_report_generated", "timestamp": 1790149060.6964662, "total_marks": 100, "awarded_marks": 85.25, "percentage": 85.25, "criterion_count": 7}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6992557, "criterion_id": "working_code", "final_rating": 0.95, "awarded_marks": 23.75}
+{"event": "criterion_report_generated", "timestamp": 1790149060.6994927, "criterion_id": "core_technique", "final_rating": 0.85, "awarded_marks": 17.0}
+{"event": "criterion_report_generated", "timestamp": 1790149060.699713, "criterion_id": "testing_evidence", "final_rating": 0.8, "awarded_marks": 12.0}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6760073, "criterion_id": "working_code", "final_rating": 0.95, "awarded_marks": 23.75}
+{"event": "criterion_report_generated", "timestamp": 1790150616.676647, "criterion_id": "core_technique", "final_rating": 0.85, "awarded_marks": 17.0}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6770127, "criterion_id": "testing_evidence", "final_rating": 0.8, "awarded_marks": 12.0}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6772125, "criterion_id": "robustness", "final_rating": 0.75, "awarded_marks": 11.25}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6774194, "criterion_id": "measurement", "final_rating": 0.75, "awarded_marks": 7.5}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6776106, "criterion_id": "traceability", "final_rating": 0.95, "awarded_marks": 9.5}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6778011, "criterion_id": "code_quality", "final_rating": 0.85, "awarded_marks": 4.25}
+{"event": "final_report_generated", "timestamp": 1790150616.6780531, "total_marks": 100, "awarded_marks": 85.25, "percentage": 85.25, "criterion_count": 7}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6812637, "criterion_id": "working_code", "final_rating": 0.95, "awarded_marks": 23.75}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6815147, "criterion_id": "core_technique", "final_rating": 0.85, "awarded_marks": 17.0}
+{"event": "criterion_report_generated", "timestamp": 1790150616.681716, "criterion_id": "testing_evidence", "final_rating": 0.8, "awarded_marks": 12.0}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6819322, "criterion_id": "robustness", "final_rating": 0.75, "awarded_marks": 11.25}
+{"event": "criterion_report_generated", "timestamp": 1790150616.682144, "criterion_id": "measurement", "final_rating": 0.75, "awarded_marks": 7.5}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6823342, "criterion_id": "traceability", "final_rating": 0.95, "awarded_marks": 9.5}
+{"event": "criterion_report_generated", "timestamp": 1790150616.682521, "criterion_id": "code_quality", "final_rating": 0.85, "awarded_marks": 4.25}
+{"event": "final_report_generated", "timestamp": 1790150616.6828072, "total_marks": 100, "awarded_marks": 85.25, "percentage": 85.25, "criterion_count": 7}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6850536, "criterion_id": "working_code", "final_rating": 0.95, "awarded_marks": 23.75}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6852849, "criterion_id": "core_technique", "final_rating": 0.85, "awarded_marks": 17.0}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6854804, "criterion_id": "testing_evidence", "final_rating": 0.8, "awarded_marks": 12.0}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6856732, "criterion_id": "robustness", "final_rating": 0.75, "awarded_marks": 11.25}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6858678, "criterion_id": "measurement", "final_rating": 0.75, "awarded_marks": 7.5}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6860552, "criterion_id": "traceability", "final_rating": 0.95, "awarded_marks": 9.5}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6862435, "criterion_id": "code_quality", "final_rating": 0.85, "awarded_marks": 4.25}
+{"event": "final_report_generated", "timestamp": 1790150616.6864955, "total_marks": 100, "awarded_marks": 85.25, "percentage": 85.25, "criterion_count": 7}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6885946, "criterion_id": "working_code", "final_rating": 0.95, "awarded_marks": 23.75}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6888356, "criterion_id": "core_technique", "final_rating": 0.85, "awarded_marks": 17.0}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6890354, "criterion_id": "testing_evidence", "final_rating": 0.8, "awarded_marks": 12.0}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6892276, "criterion_id": "robustness", "final_rating": 0.75, "awarded_marks": 11.25}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6894162, "criterion_id": "measurement", "final_rating": 0.75, "awarded_marks": 7.5}
+{"event": "criterion_report_generated", "timestamp": 1790150616.68963, "criterion_id": "traceability", "final_rating": 0.95, "awarded_marks": 9.5}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6898212, "criterion_id": "code_quality", "final_rating": 0.85, "awarded_marks": 4.25}
+{"event": "final_report_generated", "timestamp": 1790150616.6900663, "total_marks": 100, "awarded_marks": 85.25, "percentage": 85.25, "criterion_count": 7}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6920528, "criterion_id": "working_code", "final_rating": 0.95, "awarded_marks": 23.75}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6922739, "criterion_id": "core_technique", "final_rating": 0.85, "awarded_marks": 17.0}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6924694, "criterion_id": "testing_evidence", "final_rating": 0.8, "awarded_marks": 12.0}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6926737, "criterion_id": "robustness", "final_rating": 0.75, "awarded_marks": 11.25}
+{"event": "criterion_report_generated", "timestamp": 1790150616.692864, "criterion_id": "measurement", "final_rating": 0.75, "awarded_marks": 7.5}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6930516, "criterion_id": "traceability", "final_rating": 0.95, "awarded_marks": 9.5}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6932366, "criterion_id": "code_quality", "final_rating": 0.85, "awarded_marks": 4.25}
+{"event": "final_report_generated", "timestamp": 1790150616.6934764, "total_marks": 100, "awarded_marks": 85.25, "percentage": 85.25, "criterion_count": 7}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6956563, "criterion_id": "working_code", "final_rating": 0.95, "awarded_marks": 23.75}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6959207, "criterion_id": "core_technique", "final_rating": 0.85, "awarded_marks": 17.0}
+{"event": "criterion_report_generated", "timestamp": 1790150616.6961408, "criterion_id": "testing_evidence", "final_rating": 0.8, "awarded_marks": 12.0}

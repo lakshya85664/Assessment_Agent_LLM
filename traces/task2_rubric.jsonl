@@ -1,0 +1,37 @@
+{"event": "rubric_engine_started", "timestamp": 1790144354.7764828, "rubric": "rubric.json", "evidence": "outputs\\task2_evidence.json"}
+{"event": "rubric_validated", "timestamp": 1790144354.7774076, "criterion_count": 7, "total_marks": 100}
+{"event": "evidence_validated", "timestamp": 1790144354.7776837, "criterion_count": 7}
+{"event": "criterion_graded", "timestamp": 1790144354.777935, "criterion_id": "working_code", "rating": 1.0, "awarded_marks": 25.0, "max_marks": 25.0}
+{"event": "criterion_graded", "timestamp": 1790144354.7781744, "criterion_id": "core_technique", "rating": 0.9, "awarded_marks": 18.0, "max_marks": 20.0}
+{"event": "criterion_graded", "timestamp": 1790144354.7784228, "criterion_id": "testing_evidence", "rating": 0.8, "awarded_marks": 12.0, "max_marks": 15.0}
+{"event": "criterion_graded", "timestamp": 1790144354.778688, "criterion_id": "robustness", "rating": 0.8, "awarded_marks": 12.0, "max_marks": 15.0}
+{"event": "criterion_graded", "timestamp": 1790144354.7790747, "criterion_id": "measurement", "rating": 0.7, "awarded_marks": 7.0, "max_marks": 10.0}
+{"event": "criterion_graded", "timestamp": 1790144354.7793465, "criterion_id": "traceability", "rating": 1.0, "awarded_marks": 10.0, "max_marks": 10.0}
+{"event": "criterion_graded", "timestamp": 1790144354.7796128, "criterion_id": "code_quality", "rating": 0.9, "awarded_marks": 4.5, "max_marks": 5.0}
+{"event": "rubric_grading_completed", "timestamp": 1790144354.7798738, "awarded_marks": 88.5, "total_marks": 100, "percentage": 88.5}
+{"event": "rubric_validated", "timestamp": 1790144381.0248966, "criterion_count": 7, "total_marks": 100}
+{"event": "evidence_validated", "timestamp": 1790144381.0252495, "criterion_count": 7}
+{"event": "criterion_graded", "timestamp": 1790144381.0255628, "criterion_id": "working_code", "rating": 1.0, "awarded_marks": 25.0, "max_marks": 25.0}
+{"event": "criterion_graded", "timestamp": 1790144381.0259223, "criterion_id": "core_technique", "rating": 0.9, "awarded_marks": 18.0, "max_marks": 20.0}
+{"event": "criterion_graded", "timestamp": 1790144381.0263178, "criterion_id": "testing_evidence", "rating": 0.8, "awarded_marks": 12.0, "max_marks": 15.0}
+{"event": "criterion_graded", "timestamp": 1790144381.0266595, "criterion_id": "robustness", "rating": 0.8, "awarded_marks": 12.0, "max_marks": 15.0}
+{"event": "criterion_graded", "timestamp": 1790144381.0269473, "criterion_id": "measurement", "rating": 0.7, "awarded_marks": 7.0, "max_marks": 10.0}
+{"event": "criterion_graded", "timestamp": 1790144381.0272126, "criterion_id": "traceability", "rating": 1.0, "awarded_marks": 10.0, "max_marks": 10.0}
+{"event": "criterion_graded", "timestamp": 1790144381.0275414, "criterion_id": "code_quality", "rating": 0.9, "awarded_marks": 4.5, "max_marks": 5.0}
+{"event": "rubric_grading_completed", "timestamp": 1790144381.0278451, "awarded_marks": 88.5, "total_marks": 100, "percentage": 88.5}
+{"event": "rubric_validated", "timestamp": 1790144381.0307999, "criterion_count": 7, "total_marks": 100}
+{"event": "rubric_validated", "timestamp": 1790144381.0329669, "criterion_count": 7, "total_marks": 100}
+{"event": "rubric_validated", "timestamp": 1790144381.0353372, "criterion_count": 7, "total_marks": 100}
+{"event": "rubric_validated", "timestamp": 1790150616.6545951, "criterion_count": 7, "total_marks": 100}
+{"event": "evidence_validated", "timestamp": 1790150616.6552074, "criterion_count": 7}
+{"event": "criterion_graded", "timestamp": 1790150616.6554303, "criterion_id": "working_code", "rating": 1.0, "awarded_marks": 25.0, "max_marks": 25.0}
+{"event": "criterion_graded", "timestamp": 1790150616.655622, "criterion_id": "core_technique", "rating": 0.9, "awarded_marks": 18.0, "max_marks": 20.0}
+{"event": "criterion_graded", "timestamp": 1790150616.6558206, "criterion_id": "testing_evidence", "rating": 0.8, "awarded_marks": 12.0, "max_marks": 15.0}
+{"event": "criterion_graded", "timestamp": 1790150616.65602, "criterion_id": "robustness", "rating": 0.8, "awarded_marks": 12.0, "max_marks": 15.0}
+{"event": "criterion_graded", "timestamp": 1790150616.6562037, "criterion_id": "measurement", "rating": 0.7, "awarded_marks": 7.0, "max_marks": 10.0}
+{"event": "criterion_graded", "timestamp": 1790150616.6564338, "criterion_id": "traceability", "rating": 1.0, "awarded_marks": 10.0, "max_marks": 10.0}
+{"event": "criterion_graded", "timestamp": 1790150616.6566396, "criterion_id": "code_quality", "rating": 0.9, "awarded_marks": 4.5, "max_marks": 5.0}
+{"event": "rubric_grading_completed", "timestamp": 1790150616.656825, "awarded_marks": 88.5, "total_marks": 100, "percentage": 88.5}
+{"event": "rubric_validated", "timestamp": 1790150616.6584566, "criterion_count": 7, "total_marks": 100}
+{"event": "rubric_validated", "timestamp": 1790150616.6600707, "criterion_count": 7, "total_marks": 100}
+{"event": "rubric_validated", "timestamp": 1790150616.6619132, "criterion_count": 7, "total_marks": 100}

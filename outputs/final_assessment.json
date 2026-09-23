@@ -1,0 +1,211 @@
+{
+  "report_version": "1.0",
+  "rubric_name": "Topic 17 Assessment Agent",
+  "rubric_version": "1.0",
+  "total_marks": 100,
+  "awarded_marks": 85.25,
+  "percentage": 85.25,
+  "panel": {
+    "provider_a": "mock_vendor_a",
+    "provider_b": "mock_vendor_b",
+    "disagreement_threshold": 0.2
+  },
+  "criteria": [
+    {
+      "id": "working_code",
+      "name": "Working code",
+      "max_marks": 25.0,
+      "final_rating": 0.95,
+      "awarded_marks": 23.75,
+      "evidence": "Candidate entry point executed successfully with return code 0.",
+      "remediation": "",
+      "providers": [
+        {
+          "provider": "mock_vendor_a",
+          "rating": 1.0,
+          "evidence": "Candidate entry point executed successfully with return code 0."
+        },
+        {
+          "provider": "mock_vendor_b",
+          "rating": 0.9,
+          "evidence": "Candidate entry point executed successfully with return code 0."
+        }
+      ],
+      "reconciliation": {
+        "reconciled": false,
+        "final_rating": 0.95,
+        "difference": 0.1,
+        "method": "average_within_threshold",
+        "reason": "Model disagreement is within threshold."
+      }
+    },
+    {
+      "id": "core_technique",
+      "name": "Correctness of core technique",
+      "max_marks": 20.0,
+      "final_rating": 0.85,
+      "awarded_marks": 17.0,
+      "evidence": "The required assessment mechanism is implemented in the submitted source.",
+      "remediation": "Add more edge-case coverage for the core mechanism.",
+      "providers": [
+        {
+          "provider": "mock_vendor_a",
+          "rating": 0.9,
+          "evidence": "The required assessment mechanism is implemented in the submitted source."
+        },
+        {
+          "provider": "mock_vendor_b",
+          "rating": 0.8,
+          "evidence": "The required assessment mechanism is implemented in the submitted source."
+        }
+      ],
+      "reconciliation": {
+        "reconciled": false,
+        "final_rating": 0.85,
+        "difference": 0.1,
+        "method": "average_within_threshold",
+        "reason": "Model disagreement is within threshold."
+      }
+    },
+    {
+      "id": "testing_evidence",
+      "name": "Testing and evidence",
+      "max_marks": 15.0,
+      "final_rating": 0.8,
+      "awarded_marks": 12.0,
+      "evidence": "Automated tests cover successful and failure execution paths.",
+      "remediation": "Add additional negative tests.",
+      "providers": [
+        {
+          "provider": "mock_vendor_a",
+          "rating": 0.8,
+          "evidence": "Automated tests cover successful and failure execution paths."
+        },
+        {
+          "provider": "mock_vendor_b",
+          "rating": 0.8,
+          "evidence": "Automated tests cover successful and failure execution paths."
+        }
+      ],
+      "reconciliation": {
+        "reconciled": false,
+        "final_rating": 0.8,
+        "difference": 0.0,
+        "method": "average_within_threshold",
+        "reason": "Model disagreement is within threshold."
+      }
+    },
+    {
+      "id": "robustness",
+      "name": "Robustness",
+      "max_marks": 15.0,
+      "final_rating": 0.75,
+      "awarded_marks": 11.25,
+      "evidence": "Timeout and invalid candidate handling are implemented.",
+      "remediation": "Add explicit retry/backoff coverage.",
+      "providers": [
+        {
+          "provider": "mock_vendor_a",
+          "rating": 0.8,
+          "evidence": "Timeout and invalid candidate handling are implemented."
+        },
+        {
+          "provider": "mock_vendor_b",
+          "rating": 0.7,
+          "evidence": "Timeout and invalid candidate handling are implemented."
+        }
+      ],
+      "reconciliation": {
+        "reconciled": false,
+        "final_rating": 0.75,
+        "difference": 0.1,
+        "method": "average_within_threshold",
+        "reason": "Model disagreement is within threshold."
+      }
+    },
+    {
+      "id": "measurement",
+      "name": "Measurement",
+      "max_marks": 10.0,
+      "final_rating": 0.75,
+      "awarded_marks": 7.5,
+      "evidence": "Execution latency and return codes are captured.",
+      "remediation": "Add more quantitative measurements.",
+      "providers": [
+        {
+          "provider": "mock_vendor_a",
+          "rating": 0.7,
+          "evidence": "Execution latency and return codes are captured."
+        },
+        {
+          "provider": "mock_vendor_b",
+          "rating": 0.8,
+          "evidence": "Execution latency and return codes are captured."
+        }
+      ],
+      "reconciliation": {
+        "reconciled": false,
+        "final_rating": 0.75,
+        "difference": 0.1,
+        "method": "average_within_threshold",
+        "reason": "Model disagreement is within threshold."
+      }
+    },
+    {
+      "id": "traceability",
+      "name": "Traceability",
+      "max_marks": 10.0,
+      "final_rating": 0.95,
+      "awarded_marks": 9.5,
+      "evidence": "Structured JSONL ingestion traces are generated.",
+      "remediation": "",
+      "providers": [
+        {
+          "provider": "mock_vendor_a",
+          "rating": 1.0,
+          "evidence": "Structured JSONL ingestion traces are generated."
+        },
+        {
+          "provider": "mock_vendor_b",
+          "rating": 0.9,
+          "evidence": "Structured JSONL ingestion traces are generated."
+        }
+      ],
+      "reconciliation": {
+        "reconciled": false,
+        "final_rating": 0.95,
+        "difference": 0.1,
+        "method": "average_within_threshold",
+        "reason": "Model disagreement is within threshold."
+      }
+    },
+    {
+      "id": "code_quality",
+      "name": "Code quality",
+      "max_marks": 5.0,
+      "final_rating": 0.85,
+      "awarded_marks": 4.25,
+      "evidence": "Implementation uses small functions, clear names and type hints.",
+      "remediation": "Continue keeping modules focused.",
+      "providers": [
+        {
+          "provider": "mock_vendor_a",
+          "rating": 0.9,
+          "evidence": "Implementation uses small functions, clear names and type hints."
+        },
+        {
+          "provider": "mock_vendor_b",
+          "rating": 0.8,
+          "evidence": "Implementation uses small functions, clear names and type hints."
+        }
+      ],
+      "reconciliation": {
+        "reconciled": false,
+        "final_rating": 0.85,
+        "difference": 0.1,
+        "method": "average_within_threshold",
+        "reason": "Model disagreement is within threshold."
+      }
+    }
+  ]
+}

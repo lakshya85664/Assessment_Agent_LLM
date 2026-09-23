@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "working_code": {
+      "rating": 1.0,
+      "evidence": "Candidate entry point executed successfully with return code 0.",
+      "remediation": ""
+    },
+    "core_technique": {
+      "rating": 0.9,
+      "evidence": "The required assessment mechanism is implemented in the submitted source.",
+      "remediation": "Add more edge-case coverage for the core mechanism."
+    },
+    "testing_evidence": {
+      "rating": 0.8,
+      "evidence": "Automated tests cover successful and failure execution paths.",
+      "remediation": "Add additional negative tests."
+    },
+    "robustness": {
+      "rating": 0.8,
+      "evidence": "Timeout and invalid candidate handling are implemented.",
+      "remediation": "Add explicit retry/backoff coverage."
+    },
+    "measurement": {
+      "rating": 0.7,
+      "evidence": "Execution latency and return codes are captured.",
+      "remediation": "Add more quantitative measurements."
+    },
+    "traceability": {
+      "rating": 1.0,
+      "evidence": "Structured JSONL ingestion traces are generated.",
+      "remediation": ""
+    },
+    "code_quality": {
+      "rating": 0.9,
+      "evidence": "Implementation uses small functions, clear names and type hints.",
+      "remediation": "Continue keeping modules focused."
+    }
+  }
+}

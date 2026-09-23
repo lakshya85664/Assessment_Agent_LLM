@@ -1,0 +1,72 @@
+{
+  "rubric_name": "Topic 17 Assessment Agent",
+  "rubric_version": "1.0",
+  "total_marks": 100,
+  "awarded_marks": 88.5,
+  "percentage": 88.5,
+  "criteria": [
+    {
+      "id": "working_code",
+      "name": "Working code",
+      "max_marks": 25.0,
+      "rating": 1.0,
+      "awarded_marks": 25.0,
+      "evidence": "Candidate entry point executed successfully with return code 0.",
+      "remediation": ""
+    },
+    {
+      "id": "core_technique",
+      "name": "Correctness of core technique",
+      "max_marks": 20.0,
+      "rating": 0.9,
+      "awarded_marks": 18.0,
+      "evidence": "The required assessment mechanism is implemented in the submitted source.",
+      "remediation": "Add more edge-case coverage for the core mechanism."
+    },
+    {
+      "id": "testing_evidence",
+      "name": "Testing and evidence",
+      "max_marks": 15.0,
+      "rating": 0.8,
+      "awarded_marks": 12.0,
+      "evidence": "Automated tests cover successful and failure execution paths.",
+      "remediation": "Add additional negative tests."
+    },
+    {
+      "id": "robustness",
+      "name": "Robustness",
+      "max_marks": 15.0,
+      "rating": 0.8,
+      "awarded_marks": 12.0,
+      "evidence": "Timeout and invalid candidate handling are implemented.",
+      "remediation": "Add explicit retry/backoff coverage."
+    },
+    {
+      "id": "measurement",
+      "name": "Measurement",
+      "max_marks": 10.0,
+      "rating": 0.7,
+      "awarded_marks": 7.0,
+      "evidence": "Execution latency and return codes are captured.",
+      "remediation": "Add more quantitative measurements."
+    },
+    {
+      "id": "traceability",
+      "name": "Traceability",
+      "max_marks": 10.0,
+      "rating": 1.0,
+      "awarded_marks": 10.0,
+      "evidence": "Structured JSONL ingestion traces are generated.",
+      "remediation": ""
+    },
+    {
+      "id": "code_quality",
+      "name": "Code quality",
+      "max_marks": 5.0,
+      "rating": 0.9,
+      "awarded_marks": 4.5,
+      "evidence": "Implementation uses small functions, clear names and type hints.",
+      "remediation": "Continue keeping modules focused."
+    }
+  ]
+}
